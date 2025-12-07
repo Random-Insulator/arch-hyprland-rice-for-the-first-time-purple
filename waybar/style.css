@@ -1,0 +1,98 @@
+ * {
+    border: none;
+    border-radius: 0;
+    font-family: "ShureTechMono Nerd Font Mono";
+    font-size: 13px;
+    min-height: 0;
+    border-radius: 999px; 
+}
+
+window#waybar {
+    background: transparent;
+    opacity: 0.6;
+    color: white;
+}
+
+tooltip {
+  background: rgba(43, 48, 59, 0.5);
+  border: 1px solid rgba(100, 114, 125, 0.5);
+}
+tooltip label {
+  color: white;
+}
+
+#workspaces {
+    background-color: #1e1e2e;    
+    border-radius: 999px;          
+    padding: 6px 12px;            
+    margin: 6px;                 
+}
+
+
+#workspaces button {     
+    color: white;
+    padding: 2px 7px;
+    border-radius: 9px;
+    transition: 0.5s;
+    opacity: 1 ;
+}
+
+#workspaces button.active {
+    background: rgba(255,255,255,0.22); 
+    padding: 2px 12px;
+}
+#workspaces button:hover {
+    background: rgba(255, 255, 255, 0.097); 
+    padding: 2px 7px;
+}
+
+
+
+#clock,
+#battery,
+#pulseaudio,
+#network {
+    padding: 10px;
+    background-color: #1e1e2e;
+    color:rgba(255, 255, 255, 0.754);
+    border-radius: 999px; 
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+
+}
+#custom-power {
+    padding: 2px;
+    background-color: #d82222;
+    color:rgba(255, 255, 255, 0.754);
+    border-radius: 999px; 
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-size: 20px;
+    padding-left: 10px;
+
+}
+#custom-music {
+  padding: 0 10px;
+  margin: 0 5px;
+  border-radius: 100px;
+
+}
+
+#custom-music.playing {
+  color: #a6e3a1;
+  background: #1e1e2e;
+}
+
+#custom-music.paused {
+  color: #f9e2af;
+  background: #1e1e2e;
+}
+
+#custom-music.stopped {
+  color: #6c7086;
+  background: #1e1e2e;
+}
